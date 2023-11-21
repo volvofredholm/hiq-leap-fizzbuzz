@@ -1,0 +1,23 @@
+{
+	"name": "HiQ Leap - Rust VSCode",
+	"customizations": {
+		"vscode": {
+			extensions: [
+				"GitHub.vscode-github-actions",
+				"ms-vsliveshare.vsliveshare",
+				"rust-lang.rust-analyzer",
+				"serayuzgur.crates",
+				"vadimcn.vscode-lldb"
+			]
+		}
+	},
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"editor.formatOnSave": true,
+		"terminal.integrated.shell.linux": "/usr/bin/zsh",
+		"files.exclude": {
+			"**/CODE_OF_CONDUCT.md": true,
+			"**/LICENSE": true
+		}
+	}
+}
